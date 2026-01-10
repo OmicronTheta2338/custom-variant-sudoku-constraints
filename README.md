@@ -30,12 +30,4 @@ Each script is split into two sections:
 | **ParitySwitch** | Toggles parity requirements (Even/Odd) at diagonal line intersections. |
 | **PrimeCells** | Limits valid candidates within a group to the prime set {2, 3, 5, 7}. |
 
-## Technical Specifications
-
-The scripts utilize a zero-based indexing system for cell identification:
-* **4x4 Grid**: Indices `0` through `15`.
-* **9x9 Grid**: Indices `0` through `80`.
-
-
-
-For optimal performance, standard components should be used whenever possible. Custom components should be reserved for logic not supported by the native engine.
+For optimal performance, standard components should be used whenever possible. Custom components should be reserved for logic not supported natively.
