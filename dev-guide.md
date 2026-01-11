@@ -1,6 +1,6 @@
 # Sudoku Engine Custom Component Guide
 
-This is a dev guide for the [SudokuMaker.app](https://sudokumaker.app) custom constraint tool. When you open add a csutom constraint, you will be greeted with a tickbox and two code entry areas.
+This is a dev guide for the [SudokuMaker.app](https://sudokumaker.app) custom constraint tool. When you open add a csutom constraint, you will be greeted with a tickbox and two code entry areas:
 
 1.  **Tickbox:** Define if this is a Global Constraint or not.
 2.  **Implementation Section:** Create instances of your component and apply them to the grid.
