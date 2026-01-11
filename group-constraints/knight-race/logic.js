@@ -46,7 +46,7 @@ function setParams(instance, cells) {
 
 function* initialize(instance, puzzle) {
     // Dynamic Size Detection
-    const size = puzzle.size || 9;
+    const size = puzzle.size;
     const cellCount = size * size;
 
     instance.gridSize = size;

@@ -98,6 +98,10 @@ function* initialize(instance, puzzle) {
     
     // Example: Cache visibility information (slow to compute)
     instance.uniqueDigits = param1 && puzzle.getCellsSeeEachOther(cells);
+
+    // Example: Cache grid size (Good practice to allow for smaller grids)
+    instance.gridSize = puzzle.size;
+    instance.cellCount = puzzle.size * puzzle.size;
 }
 ```
 
