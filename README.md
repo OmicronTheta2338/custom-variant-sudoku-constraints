@@ -6,9 +6,9 @@ This repository contains JavaScript-based custom components and implementation s
 ```
 ├───dev-guide.md                        # Documentation for writing custom components
 ├───standard-components.js              # Reference library for built-in components
-├───global-constraints                  # Constraints that apply to the entire grid
-└───group-constraints                   # Constraints that apply to user-defined groups
-    └───constraint-name                 
-        └───constraint-name-rules.js    # Implementation script
-        └───import-constraint-name.json # Import file
+├───global-constraints/                 # Constraints that apply to the entire grid
+└───group-constraints/                  # Constraints that apply to user-defined groups
+    └───constraint-name/                
+        └───logic.js                    # Implementation script
+        └───data.json                   # Import file
 ```
